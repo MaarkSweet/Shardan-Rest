@@ -4,17 +4,18 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    color: white;
 }
 a {
     text-decoration: none;
     color: white;
 }
+.r-color {
+    color: #AC624F;
+}
 .center {
     display: flex;
     align-items: center;
-}
-.mr-60 {
-    margin-right: 60px;
 }
 .content {
     margin: 0 100px;
@@ -26,6 +27,7 @@ a {
     margin-top: 35px;
 }
 .menu {
+    margin: 10px;
     padding: 10px 15px;
     background: #AC624F;
     color: white;
@@ -54,27 +56,32 @@ select {
     border-radius: 10px;
 }
 .cart {
+    margin: 10px;
     padding: 10px;
     background: #EBBD71;
     border-radius: 15px;
+}
+.cart_text {
     color: white;
 }
 .intro_banner {
     margin-top: 65px;
     background: url(img/banner.png);
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 .intro_banner_content {
     padding: 80px 115px;
     margin: 0 auto;
-    color: white;
 }
 .banner_head {
     font-size: 40px;
+    color: white;
 }
 .banner_text {
     margin-top: 15px;
     font-style: 20px;
+    color: white;
 }
 .banner_link {
     border: 1px white solid;
@@ -82,4 +89,53 @@ select {
     padding: 15px 25px;
     margin-top: 35px;
     max-width: 170px;
+}
+
+.catalog {
+    margin-top: 70px;
+}
+/*.category_card {
+    background: url(img/product.png);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 200px;
+}*/
+
+.category_card {
+    background: url(img/product.png);
+    margin: 0 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: calc(25% - 20px);
+    box-sizing: border-box;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 200px; /* Высота вашего изображения */
+}
+
+.category_card:first-child {
+    margin-left: 0;
+}
+.category_card:last-child {
+    margin-right: 0;
+}
+.row {
+    margin-top: 40px;
+}
+.card_text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.card_text h4 {
+    margin: 0;
+}
+
+.mr-60 {
+    margin-right: 60px;
 }
