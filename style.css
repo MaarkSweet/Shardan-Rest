@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.center {
+    display: flex;
+    align-items: center;
+}
+.mr-60 {
+    margin-right: 60px;
+}
+.content {
+    margin: 0 100px;
+}
+.intro {
+}
+.header {
+    display: flex;
+    margin-top: 35px;
+}
+.menu {
+    padding: 10px 15px;
+    background: #AC624F;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.menu_text {
+    margin-left: 10px;
+}
+select {
+    border: none;
+    cursor: pointer;
+    color: #AC624F;
+}
+.logo-main {
+    margin: 0 auto;
+}
+.office {
+    color: #AC624F;
+}
+.office_text {
+    margin-left: 10px;
+}
+.search {
+    padding: 12px;
+    border-radius: 10px;
+}
+.cart {
+    padding: 10px;
+    background: #EBBD71;
+    border-radius: 15px;
+    color: white;
+}
+.intro_banner {
+    margin-top: 65px;
+    background: url(img/banner.png);
+    background-repeat: no-repeat;
+}
+.intro_banner_content {
+    padding: 80px 115px;
+    margin: 0 auto;
+    color: white;
+}
+.banner_head {
+    font-size: 40px;
+}
+.banner_text {
+    margin-top: 15px;
+    font-style: 20px;
+}
+.banner_link {
+    border: 1px white solid;
+    border-radius: 15px;
+    padding: 15px 25px;
+    margin-top: 35px;
+    max-width: 170px;
+}
