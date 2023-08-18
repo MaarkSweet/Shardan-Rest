@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.r-color {
+    color: #AC624F;
+}
+.o-color {
+    color: #EBBD71;
+}
+.center {
+    display: flex;
+    align-items: center;
+}
+
+/* Медиазапрос для мобильных устройств */
+@media (max-width: 768px) {
+    .logo_main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content {
+        margin: 30px 25px;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+    .menu {
+        background-color: #AC624F;
+        padding: 10px 15px;
+        border-radius: 10px;
+        margin-right: 30px;
+    }
+    select {
+        border: none;
+        color: #AC624F;
+    }
+    .office {
+
+    }
+    .cart {
+        margin: 10px;
+        padding: 10px;
+        background: #EBBD71;
+        border-radius: 15px;
+    }
+    .search {
+        margin-top: 15px;
+    }
+    .search input {
+        width: 100%;
+        border: 1px solid gray;
+        border-radius: 15px;
+        padding: 10px 20px;
+        color: #AC624F;
+        background: white;
+    }
+    .intro_banner {
+        margin-top: 20px;
+        background: url(img/banner_mobile.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .intro_banner_content {
+        padding: 60px 30px;
+    }
+    .banner_head {
+        font-size: 32px;
+        font-weight: bold;
+    }
+    .banner_text {
+        margin-top: 20px;
+    }
+    .banner_link {
+        border: 1px white solid;
+        border-radius: 15px;
+        padding: 15px 25px;
+        margin-top: 35px;
+        max-width: 170px;
+        cursor: pointer;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .category_card {
+        background: url(img/product-mobile.png) no-repeat;
+        display: inline-block;
+        vertical-align: top;
+        width: calc(25% - 20px);
+        box-sizing: border-box;
+        position: relative;
+        width: 165px;
+        height: 130px;
+    }
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+    .category_card_big {
+        background: url(img/product-big.png) no-repeat;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .card_text {
+        padding: 90px 20px;
+    }
+    .card_text_big {
+        padding: 190px 20px 50px;
+    }
+    .location {
+        margin-top: 35px;
+    }
+    .work_mode {
+        margin-top: 35px;
+    }
+    .work_mode_text {
+        text-align: center;
+    }
+    .work_mode_time {
+        margin-top: 5px;
+        margin-left: 30px;
+    }
+    .tap_address {
+        text-align: center;
+        cursor: pointer;
+        border: 2px #EBBD71 solid;
+        border-radius: 15px;
+        padding: 20px;
+        margin-top: 30px;
+    }
+    .location_info_head {
+        margin-top: 35px;
+        font-size: 29px;
+    }
+    .location_info_carts {
+        display: flex;
+    }
+    .location_info_cart {
+        margin-top: 15px;
+        padding: 15px 30px;
+        background-color: white;
+        border-radius: 25px;
+    }
+}
