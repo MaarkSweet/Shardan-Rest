@@ -130,6 +130,9 @@ a {
         margin-top: 35px;
         justify-content: center;
     }
+    .map img {
+        width: 100%;
+    }
     .work_mode {
         margin-top: 35px;
     }
@@ -149,8 +152,9 @@ a {
         margin-top: 30px;
     }
     .location_info_head {
+        margin: 0 auto;
         margin-top: 35px;
-        font-size: 29px;
+        font-size: 26px;
     }
     .location_info_carts {
         display: flex;
@@ -160,5 +164,8 @@ a {
         padding: 15px 30px;
         background-color: white;
         border-radius: 25px;
+    }
+    .location_info_cart:first-child {
+        margin-right: 7px;
     }
 }
