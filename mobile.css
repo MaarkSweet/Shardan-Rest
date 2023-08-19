@@ -71,6 +71,7 @@ a {
         background: url(img/banner_mobile.png);
         background-repeat: no-repeat;
         background-size: 100%;
+        border-radius: 50px;
     }
     .intro_banner_content {
         padding: 60px 30px;
