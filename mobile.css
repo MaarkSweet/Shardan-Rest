@@ -90,11 +90,10 @@ a {
         max-width: 170px;
         cursor: pointer;
     }
-    .row {
-        display: flex;
-        flex-wrap: wrap;
-    }
 
+    .catalog {
+        margin-top: 20px;
+    }
     .category_card {
         background: url(img/product-mobile.png) no-repeat;
         display: inline-block;
@@ -102,26 +101,34 @@ a {
         width: calc(25% - 20px);
         box-sizing: border-box;
         position: relative;
+        background-size: cover;
+        background-position: center;
         width: 165px;
         height: 130px;
+        border-radius: 15px;
+        margin: 5px;
     }
     .row {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
     }
     .category_card_big {
+        margin-top: 10px;
         background: url(img/product-big.png) no-repeat;
         background-repeat: no-repeat;
-        width: 100%;
+        background-size: 100%;
+        border-radius: 35px;
     }
     .card_text {
         padding: 90px 20px;
+        font-size: 15px;
     }
     .card_text_big {
         padding: 190px 20px 50px;
     }
     .location {
         margin-top: 35px;
+        justify-content: center;
     }
     .work_mode {
         margin-top: 35px;

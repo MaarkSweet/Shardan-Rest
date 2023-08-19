@@ -75,6 +75,7 @@ select {
     background: url(img/banner.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    border-radius: 80px;
 }
 .intro_banner_content {
     padding: 80px 115px;
@@ -120,6 +121,7 @@ select {
     background-size: cover;
     background-position: center;
     height: 200px; /* Высота вашего изображения */
+    border-radius: 30px;
 }
 
 .category_card:first-child {
@@ -145,8 +147,12 @@ select {
 }
 .location {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     margin-top: 70px;
+}
+.location_info {
+    margin-right: 80px;
 }
 .location_info_head {
     margin-top: 70px;
@@ -160,6 +166,9 @@ select {
     padding: 15px 30px;
     background-color: white;
     border-radius: 25px;
+}
+.location_info_cart:first-child {
+    margin-right: 10px;
 }
 .work_mode {
     display: flex;
@@ -181,4 +190,19 @@ select {
 }
 .mr-60 {
     margin-right: 60px;
+}
+
+@media (max-width: 1280px) {
+    .intro_banner_content {
+        padding: 20px 115px;
+    }
+    .banner_head {
+        font-size: 25px;
+    }
+    .banner_text {
+        margin-top: 8px;
+    }
+    .banner_link {
+        margin-top: 15px;
+    }
 }
